@@ -9,7 +9,6 @@ set -euo pipefail
 echo "Running post-create setup..."
 
 # Install specific Node.js version
-echo "Installing Node.js lts/jod (22.20.x)..."
 if [ -f /usr/local/share/nvm/nvm.sh ]; then
     source /usr/local/share/nvm/nvm.sh
     nvm install lts/jod
@@ -25,7 +24,7 @@ export 'NPM_CONFIG_UPDATE_NOTIFIER=false' >> ~/.bashrc
 # Install dependencies if package.json exists
 if [ -f package.json ]; then
     echo "Installing Node.js dependencies..."
-    npm ci --prefer-offline --no-audit || npm install
+    npm ci || npm install
 fi
 
 echo "Post-create setup completed successfully"
