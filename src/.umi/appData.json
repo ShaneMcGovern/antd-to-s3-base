@@ -8,7 +8,8 @@
       "build": "umi build",
       "postinstall": "umi setup",
       "setup": "umi setup",
-      "start": "npm run dev"
+      "start": "npm run dev",
+      "prepare": "husky"
     },
     "dependencies": {
       "umi": "^4.5.1"
@@ -19,6 +20,7 @@
     "devDependencies": {
       "@types/react": "^18.0.33",
       "@types/react-dom": "^18.0.11",
+      "husky": "^9.1.7",
       "typescript": "^5.0.3"
     }
   },
@@ -28,7 +30,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 39
+        "register": 19
       },
       "enableBy": "register",
       "type": "preset",
@@ -41,7 +43,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4421
+        "register": 1589
       },
       "enableBy": "register",
       "type": "preset",
@@ -55,10 +57,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            0
+            8
           ]
         },
-        "register": 180
+        "register": 797
       },
       "enableBy": "register",
       "type": "plugin",
@@ -72,10 +74,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            10
+            12
           ]
         },
-        "register": 123
+        "register": 76
       },
       "enableBy": "register",
       "type": "plugin",
@@ -89,10 +91,10 @@
       "time": {
         "hooks": {
           "modifyRoutes": [
-            0
+            1
           ]
         },
-        "register": 44
+        "register": 21
       },
       "enableBy": "register",
       "type": "plugin",
@@ -105,7 +107,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 109
+        "register": 231
       },
       "enableBy": "register",
       "type": "plugin",
@@ -119,10 +121,10 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            293
+            229
           ]
         },
-        "register": 714
+        "register": 506
       },
       "enableBy": "register",
       "type": "plugin",
@@ -135,7 +137,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 23
+        "register": 32
       },
       "enableBy": "register",
       "type": "plugin",
@@ -149,13 +151,13 @@
       "time": {
         "hooks": {
           "onCheckConfig": [
-            0
+            1
           ],
           "onCheck": [
-            0
+            1
           ]
         },
-        "register": 72
+        "register": 86
       },
       "enableBy": "register",
       "type": "plugin",
@@ -169,10 +171,10 @@
       "time": {
         "hooks": {
           "onCheck": [
-            1
+            0
           ]
         },
-        "register": 22
+        "register": 25
       },
       "enableBy": "register",
       "type": "plugin",
@@ -185,7 +187,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 26
+        "register": 32
       },
       "enableBy": "config",
       "type": "plugin",
@@ -202,7 +204,7 @@
             0
           ]
         },
-        "register": 815
+        "register": 628
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1054,7 +1056,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 40
+        "register": 22
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1068,10 +1070,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            1
+            0
           ]
         },
-        "register": 94
+        "register": 78
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1084,7 +1086,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 89
+        "register": 94
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1097,7 +1099,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 778
+        "register": 350
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1110,7 +1112,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2121
+        "register": 5156
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1123,7 +1125,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 587
+        "register": 430
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1137,10 +1139,10 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            19
+            8
           ]
         },
-        "register": 24
+        "register": 42
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1153,7 +1155,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 63
+        "register": 53
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1166,7 +1168,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 121
+        "register": 64
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1179,7 +1181,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 603
+        "register": 543
       },
       "type": "plugin",
       "path": "/workspaces/antd-to-s3-base/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1191,7 +1193,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 87
+        "register": 54
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1204,7 +1206,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 66
+        "register": 50
       },
       "type": "plugin",
       "path": "/workspaces/antd-to-s3-base/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
@@ -1216,7 +1218,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1229,7 +1231,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 66
+        "register": 36
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1243,10 +1245,10 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            42
+            37
           ]
         },
-        "register": 193
+        "register": 81
       },
       "type": "plugin",
       "path": "/workspaces/antd-to-s3-base/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
@@ -1258,7 +1260,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 153
+        "register": 11
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1271,7 +1273,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 192
+        "register": 111
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1284,7 +1286,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 30
+        "register": 29
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1297,7 +1299,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 22
+        "register": 29
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1310,7 +1312,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 74
+        "register": 70
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1323,7 +1325,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 364
+        "register": 300
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1336,7 +1338,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 93
+        "register": 75
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1349,7 +1351,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 30
+        "register": 18
       },
       "type": "plugin",
       "path": "/workspaces/antd-to-s3-base/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
@@ -1361,7 +1363,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 310
+        "register": 179
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1374,7 +1376,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 273
+        "register": 220
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1387,7 +1389,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 359
+        "register": 214
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1400,7 +1402,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 202
+        "register": 113
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1413,7 +1415,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 26
+        "register": 11
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1426,7 +1428,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 732
+        "register": 469
       },
       "type": "plugin",
       "path": "/workspaces/antd-to-s3-base/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1438,7 +1440,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 358
+        "register": 192
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1451,7 +1453,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 210
+        "register": 150
       },
       "type": "plugin",
       "path": "/workspaces/antd-to-s3-base/node_modules/@umijs/preset-umi/dist/features/test/test.js",
@@ -1463,7 +1465,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 78
+        "register": 63
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1476,7 +1478,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 218
+        "register": 89
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1489,7 +1491,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 42
+        "register": 20
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1502,7 +1504,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 95
+        "register": 35
       },
       "type": "plugin",
       "path": "/workspaces/antd-to-s3-base/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
@@ -1518,7 +1520,7 @@
             0
           ]
         },
-        "register": 36
+        "register": 21
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1531,7 +1533,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 185
+        "register": 112
       },
       "type": "plugin",
       "path": "/workspaces/antd-to-s3-base/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
@@ -1543,7 +1545,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 29
+        "register": 21
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1556,7 +1558,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 74
+        "register": 77
       },
       "type": "plugin",
       "path": "/workspaces/antd-to-s3-base/node_modules/@umijs/preset-umi/dist/features/utoopack/utoopack.js",
@@ -1568,7 +1570,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 148
+        "register": 212
       },
       "type": "plugin",
       "path": "/workspaces/antd-to-s3-base/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
@@ -1580,7 +1582,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 408
+        "register": 400
       },
       "type": "plugin",
       "path": "/workspaces/antd-to-s3-base/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -1592,7 +1594,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 83
+        "register": 78
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1605,7 +1607,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 120
+        "register": 140
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1618,7 +1620,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 262
+        "register": 241
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1631,7 +1633,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1083
+        "register": 825
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1644,7 +1646,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2659
+        "register": 1832
       },
       "type": "plugin",
       "path": "/workspaces/antd-to-s3-base/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1656,7 +1658,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 18
+        "register": 9
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1669,7 +1671,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 17
+        "register": 9
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1682,7 +1684,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 24
+        "register": 14
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1695,7 +1697,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 104
+        "register": 12
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1708,7 +1710,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 82
+        "register": 42
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1721,7 +1723,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 164
+        "register": 174
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1734,7 +1736,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 26
+        "register": 28
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1747,7 +1749,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 27
+        "register": 19
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1760,7 +1762,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 23
+        "register": 28
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1773,7 +1775,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 23
+        "register": 22
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1786,7 +1788,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 22
+        "register": 28
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1799,7 +1801,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 21
+        "register": 25
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1812,7 +1814,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 24
+        "register": 20
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1825,7 +1827,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 26
+        "register": 21
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1838,7 +1840,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 23
+        "register": 20
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1851,7 +1853,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 22
+        "register": 15
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1864,7 +1866,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 16
+        "register": 14
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1877,7 +1879,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 19
+        "register": 10
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1890,7 +1892,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 268
+        "register": 285
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1903,7 +1905,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 103
+        "register": 84
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1916,7 +1918,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 109
+        "register": 85
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1929,7 +1931,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 20
+        "register": 10
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2054,7 +2056,7 @@
     "path": "/workspaces/antd-to-s3-base/node_modules/react-dom"
   },
   "appJS": null,
-  "locale": "POSIX",
+  "locale": "en-US",
   "globalCSS": [],
   "globalJS": [],
   "overridesCSS": [],
